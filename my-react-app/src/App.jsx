@@ -3,12 +3,12 @@ import './App.css'
 import Darshan from './darshan'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const username = "Darshan";
 
   return (
     <>
     <Darshan />
-    <h1>Hello World</h1>
+    <h1>Hello World {username}</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
     </>
   )
